@@ -1,0 +1,699 @@
+* Loading module...
+
+	Z:\workspace\NOREMORSE\build-windows-clang\JMoney_artefacts\Release\VST3\J Money - Vocal Intelligence EQ.vst3
+
+* Check valid bundle structure...
+
+* Scanning classes...
+
+  Factory Info:
+	vendor = J Money
+	url = 
+	email = 
+
+  Class Info 0:
+	name = J Money - Vocal Intelligence EQ
+	category = Audio Module Class
+	subCategories = Fx|EQ
+	version = 0.1.0
+	sdkVersion = VST 3.7.12
+	cid = ABCDEF019182FAEB4A4D6F6E4A764571
+
+  Class Info 1:
+	name = J Money - Vocal Intelligence EQ
+	category = Component Controller Class
+	subCategories = Fx|EQ
+	version = 0.1.0
+	sdkVersion = VST 3.7.12
+	cid = ABCDEF011234ABCD4A4D6F6E4A764571
+
+  Class Info 2:
+	name = J Money - Vocal Intelligence EQ
+	category = Plugin Compatibility Class
+	subCategories = 
+	version = 0.1.0
+	sdkVersion = VST 3.7.12
+	cid = ABCDEF01C0DEF00D4A4D6F6E4A764571
+
+* Checking snapshots...
+
+Info: No snapshots in Bundle.
+
+* Creating tests...
+
+* Running tests...
+
+-------------------------------------------------------------
+TestSuite : J Money - Vocal Intelligence EQ
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+TestSuite : General Tests
+-------------------------------------------------------------
+
+[Scan Editor Classes]
+Info:  ===Scan Editor Classes ====================================
+Info:  This component has an edit controller class
+Info:     Controller CID: {ABCDEF01-1234-ABCD-4A4D-6F6E4A764571}
+[Succeeded]
+
+[Scan Buses]
+Info:  ===Scan Buses ====================================
+Info:  => Audio Buses: [1 In(s) => 1 Out(s)]
+Info:       In [0]: "Input" (Main-Default Active) 
+Info:       Out[0]: "Output" (Main-Default Active) 
+Info:  => Event Buses: [0 In(s) => 0 Out(s)]
+[Succeeded]
+
+[Scan Parameters]
+Info:  ===Scan Parameters ====================================
+Info:  This component exports 388 parameter(s)
+Info:     Parameter 000 (id=773352680): [title="bypass"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 001 (id=1660902415): [title="auto_gain"] [unit=""] [type = Toggle, default = 1.000000, unit = 0]
+Info:     Parameter 002 (id=28191868): [title="output_db"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 003 (id=56961715): [title="learn_amount"] [unit=""] [type = Float, default = 0.350000, unit = 0]
+Info:     Parameter 004 (id=1342535148): [title="learn_max_cut"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 005 (id=1684985037): [title="learn_max_boost"] [unit=""] [type = Float, default = 0.250000, unit = 0]
+Info:     Parameter 006 (id=1555390169): [title="learn_low"] [unit=""] [type = Float, default = 0.329877, unit = 0]
+Info:     Parameter 007 (id=972329661): [title="learn_high"] [unit=""] [type = Float, default = 0.803629, unit = 0]
+Info:     Parameter 008 (id=2093440825): [title="learn_smoothing"] [unit=""] [type = Float, default = 0.473684, unit = 0]
+Info:     Parameter 009 (id=841471606): [title="adaptive"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 010 (id=1585694397): [title="learn_trigger"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 011 (id=798144339): [title="adaptation_seconds"] [unit=""] [type = Float, default = 0.200000, unit = 0]
+Info:     Parameter 012 (id=1520258017): [title="linear_phase"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 013 (id=1622570245): [title="reference_target"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 014 (id=1282493346): [title="group_tier"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 015 (id=74366436): [title="correction_mode"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 016 (id=895660839): [title="group_max_cut"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 017 (id=1460479406): [title="reference_start_seconds"] [unit=""] [type = Float, default = 0.000000, unit = 0]
+Info:     Parameter 018 (id=1764076872): [title="reference_duration_seconds"] [unit=""] [type = Float, default = 0.237288, unit = 0]
+Info:     Parameter 019 (id=1838057897): [title="profile"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 020 (id=1227636369): [title="rumble"] [unit=""] [type = Float, default = 0.000000, unit = 0]
+Info:     Parameter 021 (id=108476): [title="mud"] [unit=""] [type = Float, default = 0.000000, unit = 0]
+Info:     Parameter 022 (id=104590667): [title="nasal"] [unit=""] [type = Float, default = 0.000000, unit = 0]
+Info:     Parameter 023 (id=870817019): [title="presence"] [unit=""] [type = Float, default = 0.000000, unit = 0]
+Info:     Parameter 024 (id=1892672005): [title="harshness"] [unit=""] [type = Float, default = 0.000000, unit = 0]
+Info:     Parameter 025 (id=797472958): [title="sibilance"] [unit=""] [type = Float, default = 0.000000, unit = 0]
+Info:     Parameter 026 (id=96586): [title="air"] [unit=""] [type = Float, default = 0.000000, unit = 0]
+Info:     Parameter 027 (id=3029410): [title="body"] [unit=""] [type = Float, default = 0.000000, unit = 0]
+Info:     Parameter 028 (id=757438110): [title="band1_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 029 (id=196832156): [title="band1_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 030 (id=1339624080): [title="band1_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 031 (id=1472891133): [title="band1_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 032 (id=560328934): [title="band1_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 033 (id=561157192): [title="band1_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 034 (id=462695801): [title="band1_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 035 (id=1472480578): [title="band1_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 036 (id=1810175374): [title="band1_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 037 (id=1134726280): [title="band1_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 038 (id=559910568): [title="band1_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 039 (id=1855685451): [title="band1_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 040 (id=1310143332): [title="band1_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 041 (id=1472612102): [title="band1_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 042 (id=559904730): [title="band1_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 043 (id=1097467295): [title="band2_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 044 (id=536861341): [title="band2_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 045 (id=1143110575): [title="band2_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 046 (id=1501520284): [title="band2_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 047 (id=1447832615): [title="band2_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 048 (id=1448660873): [title="band2_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 049 (id=813228090): [title="band2_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 050 (id=1501109729): [title="band2_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 051 (id=1810176335): [title="band2_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 052 (id=1485258569): [title="band2_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 053 (id=1447414249): [title="band2_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 054 (id=1451012138): [title="band2_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 055 (id=1650172517): [title="band2_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 056 (id=1501241253): [title="band2_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 057 (id=1447408411): [title="band2_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 058 (id=1437496480): [title="band3_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 059 (id=876890526): [title="band3_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 060 (id=946597070): [title="band3_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 061 (id=1530149435): [title="band3_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 062 (id=187852648): [title="band3_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 063 (id=188680906): [title="band3_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 064 (id=1163760379): [title="band3_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 065 (id=1529738880): [title="band3_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 066 (id=1810177296): [title="band3_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 067 (id=1835790858): [title="band3_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 068 (id=187434282): [title="band3_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 069 (id=1046338825): [title="band3_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 070 (id=1990201702): [title="band3_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 071 (id=1529870404): [title="band3_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 072 (id=187428444): [title="band3_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 073 (id=1777525665): [title="band4_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 074 (id=1216919711): [title="band4_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 075 (id=750083565): [title="band4_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 076 (id=1558778586): [title="band4_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 077 (id=1075356329): [title="band4_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 078 (id=1076184587): [title="band4_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 079 (id=1514292668): [title="band4_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 080 (id=1558368031): [title="band4_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 081 (id=1810178257): [title="band4_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 082 (id=38839499): [title="band4_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 083 (id=1074937963): [title="band4_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 084 (id=641665512): [title="band4_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 085 (id=182747239): [title="band4_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 086 (id=1558499555): [title="band4_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 087 (id=1074932125): [title="band4_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 088 (id=2117554850): [title="band5_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 089 (id=1556948896): [title="band5_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 090 (id=553570060): [title="band5_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 091 (id=1587407737): [title="band5_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 092 (id=1962860010): [title="band5_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 093 (id=1963688268): [title="band5_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 094 (id=1864824957): [title="band5_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 095 (id=1586997182): [title="band5_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 096 (id=1810179218): [title="band5_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 097 (id=389371788): [title="band5_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 098 (id=1962441644): [title="band5_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 099 (id=236992199): [title="band5_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 100 (id=522776424): [title="band5_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 101 (id=1587128706): [title="band5_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 102 (id=1962435806): [title="band5_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 103 (id=310100387): [title="band6_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 104 (id=1896978081): [title="band6_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 105 (id=357056555): [title="band6_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 106 (id=1616036888): [title="band6_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 107 (id=702880043): [title="band6_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 108 (id=703708301): [title="band6_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 109 (id=67873598): [title="band6_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 110 (id=1615626333): [title="band6_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 111 (id=1810180179): [title="band6_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 112 (id=739904077): [title="band6_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 113 (id=702461677): [title="band6_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 114 (id=1979802534): [title="band6_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 115 (id=862805609): [title="band6_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 116 (id=1615757857): [title="band6_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 117 (id=702455839): [title="band6_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 118 (id=650129572): [title="band7_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 119 (id=89523618): [title="band7_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 120 (id=160543050): [title="band7_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 121 (id=1644666039): [title="band7_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 122 (id=1590383724): [title="band7_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 123 (id=1591211982): [title="band7_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 124 (id=418405887): [title="band7_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 125 (id=1644255484): [title="band7_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 126 (id=1810181140): [title="band7_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 127 (id=1090436366): [title="band7_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 128 (id=1589965358): [title="band7_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 129 (id=1575129221): [title="band7_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 130 (id=1202834794): [title="band7_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 131 (id=1644387008): [title="band7_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 132 (id=1589959520): [title="band7_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 133 (id=990158757): [title="band8_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 134 (id=429552803): [title="band8_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 135 (id=2111513193): [title="band8_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 136 (id=1673295190): [title="band8_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 137 (id=330403757): [title="band8_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 138 (id=331232015): [title="band8_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 139 (id=768938176): [title="band8_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 140 (id=1672884635): [title="band8_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 141 (id=1810182101): [title="band8_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 142 (id=1440968655): [title="band8_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 143 (id=329985391): [title="band8_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 144 (id=1170455908): [title="band8_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 145 (id=1542863979): [title="band8_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 146 (id=1673016159): [title="band8_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 147 (id=329979553): [title="band8_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 148 (id=1330187942): [title="band9_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 149 (id=769581988): [title="band9_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 150 (id=1914999688): [title="band9_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 151 (id=1701924341): [title="band9_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 152 (id=1217907438): [title="band9_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 153 (id=1218735696): [title="band9_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 154 (id=1119470465): [title="band9_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 155 (id=1701513786): [title="band9_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 156 (id=1810183062): [title="band9_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 157 (id=1791500944): [title="band9_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 158 (id=1217489072): [title="band9_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 159 (id=765782595): [title="band9_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 160 (id=1882893164): [title="band9_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 161 (id=1701645310): [title="band9_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 162 (id=1217483234): [title="band9_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 163 (id=163197206): [title="band10_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 164 (id=1750074900): [title="band10_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 165 (id=98025240): [title="band10_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 166 (id=1344848261): [title="band10_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 167 (id=885967198): [title="band10_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 168 (id=886795456): [title="band10_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 169 (id=627837425): [title="band10_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 170 (id=1344437706): [title="band10_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 171 (id=280816134): [title="band10_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 172 (id=1299867904): [title="band10_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 173 (id=885548832): [title="band10_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 174 (id=1213053395): [title="band10_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 175 (id=715902428): [title="band10_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 176 (id=1344569230): [title="band10_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 177 (id=885542994): [title="band10_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 178 (id=503226391): [title="band11_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 179 (id=2090104085): [title="band11_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 180 (id=2048995383): [title="band11_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 181 (id=1373477412): [title="band11_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 182 (id=1773470879): [title="band11_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 183 (id=1774299137): [title="band11_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 184 (id=978369714): [title="band11_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 185 (id=1373066857): [title="band11_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 186 (id=280817095): [title="band11_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 187 (id=1650400193): [title="band11_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 188 (id=1773052513): [title="band11_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 189 (id=808380082): [title="band11_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 190 (id=1055931613): [title="band11_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 191 (id=1373198381): [title="band11_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 192 (id=1773046675): [title="band11_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 193 (id=843255576): [title="band12_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 194 (id=282649622): [title="band12_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 195 (id=1852481878): [title="band12_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 196 (id=1402106563): [title="band12_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 197 (id=513490912): [title="band12_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 198 (id=514319170): [title="band12_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 199 (id=1328902003): [title="band12_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 200 (id=1401696008): [title="band12_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 201 (id=280818056): [title="band12_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 202 (id=2000932482): [title="band12_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 203 (id=513072546): [title="band12_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 204 (id=403706769): [title="band12_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 205 (id=1395960798): [title="band12_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 206 (id=1401827532): [title="band12_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 207 (id=513066708): [title="band12_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 208 (id=1183284761): [title="band13_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 209 (id=622678807): [title="band13_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 210 (id=1655968373): [title="band13_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 211 (id=1430735714): [title="band13_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 212 (id=1400994593): [title="band13_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 213 (id=1401822851): [title="band13_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 214 (id=1679434292): [title="band13_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 215 (id=1430325159): [title="band13_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 216 (id=280819017): [title="band13_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 217 (id=203981123): [title="band13_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 218 (id=1400576227): [title="band13_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 219 (id=2146517104): [title="band13_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 220 (id=1735989983): [title="band13_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 221 (id=1430456683): [title="band13_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 222 (id=1400570389): [title="band13_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 223 (id=1523313946): [title="band14_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 224 (id=962707992): [title="band14_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 225 (id=1459454868): [title="band14_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 226 (id=1459364865): [title="band14_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 227 (id=141014626): [title="band14_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 228 (id=141842884): [title="band14_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 229 (id=2029966581): [title="band14_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 230 (id=1458954310): [title="band14_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 231 (id=280819978): [title="band14_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 232 (id=554513412): [title="band14_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 233 (id=140596260): [title="band14_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 234 (id=1741843791): [title="band14_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 235 (id=2076019168): [title="band14_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 236 (id=1459085834): [title="band14_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 237 (id=140590422): [title="band14_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 238 (id=1863343131): [title="band15_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 239 (id=1302737177): [title="band15_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 240 (id=1262941363): [title="band15_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 241 (id=1487994016): [title="band15_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 242 (id=1028518307): [title="band15_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 243 (id=1029346565): [title="band15_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 244 (id=233015222): [title="band15_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 245 (id=1487583461): [title="band15_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 246 (id=280820939): [title="band15_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 247 (id=905045701): [title="band15_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 248 (id=1028099941): [title="band15_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 249 (id=1337170478): [title="band15_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 250 (id=268564705): [title="band15_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 251 (id=1487714985): [title="band15_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 252 (id=1028094103): [title="band15_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 253 (id=55888668): [title="band16_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 254 (id=1642766362): [title="band16_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 255 (id=1066427858): [title="band16_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 256 (id=1516623167): [title="band16_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 257 (id=1916021988): [title="band16_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 258 (id=1916850246): [title="band16_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 259 (id=583547511): [title="band16_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 260 (id=1516212612): [title="band16_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 261 (id=280821900): [title="band16_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 262 (id=1255577990): [title="band16_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 263 (id=1915603622): [title="band16_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 264 (id=932497165): [title="band16_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 265 (id=608593890): [title="band16_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 266 (id=1516344136): [title="band16_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 267 (id=1915597784): [title="band16_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 268 (id=395917853): [title="band17_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 269 (id=1982795547): [title="band17_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 270 (id=869914353): [title="band17_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 271 (id=1545252318): [title="band17_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 272 (id=656042021): [title="band17_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 273 (id=656870279): [title="band17_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 274 (id=934079800): [title="band17_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 275 (id=1544841763): [title="band17_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 276 (id=280822861): [title="band17_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 277 (id=1606110279): [title="band17_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 278 (id=655623655): [title="band17_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 279 (id=527823852): [title="band17_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 280 (id=948623075): [title="band17_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 281 (id=1544973287): [title="band17_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 282 (id=655617817): [title="band17_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 283 (id=735947038): [title="band18_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 284 (id=175341084): [title="band18_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 285 (id=673400848): [title="band18_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 286 (id=1573881469): [title="band18_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 287 (id=1543545702): [title="band18_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 288 (id=1544373960): [title="band18_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 289 (id=1284612089): [title="band18_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 290 (id=1573470914): [title="band18_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 291 (id=280823822): [title="band18_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 292 (id=1956642568): [title="band18_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 293 (id=1543127336): [title="band18_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 294 (id=123150539): [title="band18_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 295 (id=1288652260): [title="band18_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 296 (id=1573602438): [title="band18_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 297 (id=1543121498): [title="band18_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 298 (id=1075976223): [title="band19_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 299 (id=515370269): [title="band19_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 300 (id=476887343): [title="band19_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 301 (id=1602510620): [title="band19_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 302 (id=283565735): [title="band19_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 303 (id=284393993): [title="band19_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 304 (id=1635144378): [title="band19_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 305 (id=1602100065): [title="band19_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 306 (id=280824783): [title="band19_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 307 (id=159691209): [title="band19_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 308 (id=283147369): [title="band19_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 309 (id=1865960874): [title="band19_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 310 (id=1628681445): [title="band19_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 311 (id=1602231589): [title="band19_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 312 (id=283141531): [title="band19_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 313 (id=2114167349): [title="band20_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 314 (id=1553561395): [title="band20_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 315 (id=448557529): [title="band20_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 316 (id=84868294): [title="band20_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 317 (id=481293885): [title="band20_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 318 (id=482122143): [title="band20_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 319 (id=756920144): [title="band20_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 320 (id=84457739): [title="band20_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 321 (id=280845925): [title="band20_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 322 (id=1428950623): [title="band20_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 323 (id=480875519): [title="band20_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 324 (id=1553082580): [title="band20_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 325 (id=519388923): [title="band20_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 326 (id=84589263): [title="band20_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 327 (id=480869681): [title="band20_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 328 (id=306712886): [title="band21_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 329 (id=1893590580): [title="band21_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 330 (id=252044024): [title="band21_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 331 (id=113497445): [title="band21_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 332 (id=1368797566): [title="band21_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 333 (id=1369625824): [title="band21_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 334 (id=1107452433): [title="band21_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 335 (id=113086890): [title="band21_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 336 (id=280846886): [title="band21_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 337 (id=1779482912): [title="band21_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 338 (id=1368379200): [title="band21_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 339 (id=1148409267): [title="band21_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 340 (id=859418108): [title="band21_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 341 (id=113218414): [title="band21_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 342 (id=1368373362): [title="band21_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 343 (id=646742071): [title="band22_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 344 (id=86136117): [title="band22_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 345 (id=55530519): [title="band22_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 346 (id=142126596): [title="band22_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 347 (id=108817599): [title="band22_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 348 (id=109645857): [title="band22_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 349 (id=1457984722): [title="band22_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 350 (id=141716041): [title="band22_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 351 (id=280847847): [title="band22_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 352 (id=2130015201): [title="band22_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 353 (id=108399233): [title="band22_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 354 (id=743735954): [title="band22_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 355 (id=1199447293): [title="band22_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 356 (id=141847565): [title="band22_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 357 (id=108393395): [title="band22_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 358 (id=986771256): [title="band23_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 359 (id=426165302): [title="band23_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 360 (id=2006500662): [title="band23_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 361 (id=170755747): [title="band23_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 362 (id=996321280): [title="band23_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 363 (id=997149538): [title="band23_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 364 (id=1808517011): [title="band23_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 365 (id=170345192): [title="band23_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 366 (id=280848808): [title="band23_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 367 (id=333063842): [title="band23_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 368 (id=995902914): [title="band23_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 369 (id=339062641): [title="band23_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 370 (id=1539476478): [title="band23_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 371 (id=170476716): [title="band23_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 372 (id=995897076): [title="band23_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 373 (id=1326800441): [title="band24_enabled"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 374 (id=766194487): [title="band24_dynamic"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 375 (id=1809987157): [title="band24_audition"] [unit=""] [type = Toggle, default = 0.000000, unit = 0]
+Info:     Parameter 376 (id=199384898): [title="band24_type"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 377 (id=1883824961): [title="band24_route"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 378 (id=1884653219): [title="band24_slope"] [unit=""] [type = Discrete, default = 0.000000, unit = 0]
+Info:     Parameter 379 (id=11565652): [title="band24_frequency"] [unit=""] [type = Float, default = 0.404752, unit = 0]
+Info:     Parameter 380 (id=198974343): [title="band24_gain"] [unit=""] [type = Float, default = 0.500000, unit = 0]
+Info:     Parameter 381 (id=280849769): [title="band24_q"] [unit=""] [type = Float, default = 0.294344, unit = 0]
+Info:     Parameter 382 (id=683596131): [title="band24_threshold"] [unit=""] [type = Float, default = 0.666667, unit = 0]
+Info:     Parameter 383 (id=1883406595): [title="band24_ratio"] [unit=""] [type = Float, default = 0.229416, unit = 0]
+Info:     Parameter 384 (id=2081872976): [title="band24_attack"] [unit=""] [type = Float, default = 0.299400, unit = 0]
+Info:     Parameter 385 (id=1879505663): [title="band24_release"] [unit=""] [type = Float, default = 0.415244, unit = 0]
+Info:     Parameter 386 (id=199105867): [title="band24_knee"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:     Parameter 387 (id=1883400757): [title="band24_range"] [unit=""] [type = Float, default = 0.333333, unit = 0]
+Info:  Note: This Unit (idx=0, id=0, name="Root Unit") has 388 parameters: it could be better to split it in sub-units!.
+[Succeeded]
+
+[MIDI Mapping]
+Info:  ===MIDI Mapping ====================================
+[Succeeded]
+
+[MIDI Learn]
+Info:  ===MIDI Learn ====================================
+Info:  No MIDI Learn interface supplied!
+[Succeeded]
+
+[Scan Units]
+Info:  ===Scan Units ====================================
+Info:  This component has 1 unit(s).
+Info:     Unit000 (ID = 0): "Root Unit" (parent ID = -1, programlist ID = 1886548852)
+[Succeeded]
+
+[Scan Programs]
+Info:  ===Scan Programs ====================================
+Info:  Programlist 000 (id=1886548852):  "Factory Presets" (1 programs).
+Info:  Programlist 000->Program 000: "User"
+[Succeeded]
+
+[Terminate/Initialize]
+Info:  ===Terminate/Initialize ====================================
+[Succeeded]
+
+[Check Unit Structure]
+Info:  ===Check Unit Structure ====================================
+Info:  All units have valid parent IDs.
+[Succeeded]
+
+[Valid State Transition 32bits]
+Info:  ===Valid State Transition 32bits ====================================
+[Succeeded]
+
+[Valid State Transition 64bits]
+Info:  ===Valid State Transition 64bits ====================================
+[Succeeded]
+
+[Bus Consistency]
+Info:  ===Bus Consistency ====================================
+[Succeeded]
+
+[Bus Activation]
+Info:  ===Bus Activation ====================================
+Info:     Bus Activation: Input Audio Bus (0) (kMain)
+Info:     Bus Activation: Output Audio Bus (0) (kMain)
+[Succeeded]
+
+[Check Audio Bus Arrangement]
+Info:  ===Check Audio Bus Arrangement ====================================
+Info:     Check Input Audio Bus Arrangement (0)
+Info:     Check Output Audio Bus Arrangement (0)
+[Succeeded]
+
+[SideChain Arrangement]
+Info:  ===SideChain Arrangement ====================================
+[Succeeded]
+
+[Suspend/Resume]
+Info:  ===Suspend/Resume ====================================
+[Succeeded]
+
+[Note Expression]
+Info:  ===Note Expression ====================================
+Info:  No Note Expression interface supplied!
+[Succeeded]
+
+[Keyswitch]
+Info:  ===Keyswitch ====================================
+Info:  No Keyswitch interface supplied!
+[Succeeded]
+
+[ProcessContext Requirements]
+Info:  ===ProcessContext Requirements ====================================
+Info:  ProcessContextRequirements:
+Info:   - SystemTime
+Info:   - ContinousTimeSamples
+Info:   - ProjectTimeMusic
+Info:   - BarPosititionMusic
+Info:   - CycleMusic
+Info:   - SamplesToNextClock
+Info:   - Tempo
+Info:   - TimeSignature
+Info:   - Chord
+Info:   - FrameRate
+Info:   - TransportState
+[Succeeded]
+
+-------------------------------------------------------------
+TestSuite : Single Precision (32 bit) Tests
+-------------------------------------------------------------
+
+[Process Test]
+[Succeeded]
+
+[Process function running in another thread]
+Info:  ===Process function running in another thread ====================================
+[Succeeded]
+
+[Silence Flags]
+Info:  ===Silence Flags ====================================
+[Succeeded]
+
+[Silence Processing]
+Info:  ===Silence Processing ====================================
+[Succeeded]
+
+[Parameters Flush (no Buffer)]
+Info:  ===Parameters Flush (no Buffer) ====================================
+[Succeeded]
+
+[Parameters Flush 2 (only numChannel==0)]
+Info:  ===Parameters Flush 2 (only numChannel==0) ====================================
+[Succeeded]
+
+[Parameters Flush 2 (no Buffer, no parameter change)]
+Info:  ===Parameters Flush 2 (no Buffer, no parameter change) ====================================
+[Succeeded]
+
+[Variable Block Size]
+Info:  ===Variable Block Size ====================================
+[Succeeded]
+
+[Process Format]
+Info:  ===Process Format ====================================
+Info:  ***Tested Sample Rates***
+Info:        22050 Hz - processed successfully!
+Info:        32000 Hz - processed successfully!
+Info:        44100 Hz - processed successfully!
+Info:        48000 Hz - processed successfully!
+Info:        88200 Hz - processed successfully!
+Info:        96000 Hz - processed successfully!
+Info:       192000 Hz - processed successfully!
+Info:       384000 Hz - processed successfully!
+Info:    1234.5678 Hz - processed successfully!
+Info:    12345.678 Hz - processed successfully!
+Info:    123456.78 Hz - processed successfully!
+Info:    1234567.8 Hz - processed successfully!
+[Succeeded]
+
+[Parameter Bypass persistence]
+Info:  ===Parameter Bypass persistence ====================================
+[Succeeded]
+
+[In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+[Succeeded]
+
+[In: Mono: 1 Channels, Out: Mono: 1 Channels]
+Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+[Succeeded]
+
+[Accuracy: Block, 1 Parameters, Change every100 Samples]
+Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+[Succeeded]
+
+[Accuracy: Sample, 1 Parameters, Change every100 Samples]
+Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+Info:     Not all points have been read via IParameterChanges
+[Succeeded]
+
+-------------------------------------------------------------
+TestSuite : Double Precision (64 bit) Tests
+-------------------------------------------------------------
+
+[Process Test]
+[Succeeded]
+
+[Process function running in another thread]
+Info:  ===Process function running in another thread ====================================
+[Succeeded]
+
+[Silence Flags]
+Info:  ===Silence Flags ====================================
+[Succeeded]
+
+[Silence Processing]
+Info:  ===Silence Processing ====================================
+[Succeeded]
+
+[Parameters Flush (no Buffer)]
+Info:  ===Parameters Flush (no Buffer) ====================================
+[Succeeded]
+
+[Parameters Flush 2 (only numChannel==0)]
+Info:  ===Parameters Flush 2 (only numChannel==0) ====================================
+[Succeeded]
+
+[Parameters Flush 2 (no Buffer, no parameter change)]
+Info:  ===Parameters Flush 2 (no Buffer, no parameter change) ====================================
+[Succeeded]
+
+[Variable Block Size]
+Info:  ===Variable Block Size ====================================
+[Succeeded]
+
+[Process Format]
+Info:  ===Process Format ====================================
+Info:  ***Tested Sample Rates***
+Info:        22050 Hz - processed successfully!
+Info:        32000 Hz - processed successfully!
+Info:        44100 Hz - processed successfully!
+Info:        48000 Hz - processed successfully!
+Info:        88200 Hz - processed successfully!
+Info:        96000 Hz - processed successfully!
+Info:       192000 Hz - processed successfully!
+Info:       384000 Hz - processed successfully!
+Info:    1234.5678 Hz - processed successfully!
+Info:    12345.678 Hz - processed successfully!
+Info:    123456.78 Hz - processed successfully!
+Info:    1234567.8 Hz - processed successfully!
+[Succeeded]
+
+[Parameter Bypass persistence]
+Info:  ===Parameter Bypass persistence ====================================
+[Succeeded]
+
+[In: Stereo: 2 Channels, Out: Stereo: 2 Channels]
+Info:  ===In: Stereo: 2 Channels, Out: Stereo: 2 Channels ====================================
+[Succeeded]
+
+[In: Mono: 1 Channels, Out: Mono: 1 Channels]
+Info:  ===In: Mono: 1 Channels, Out: Mono: 1 Channels ====================================
+[Succeeded]
+
+[Accuracy: Block, 1 Parameters, Change every100 Samples]
+Info:  ===Accuracy: Block, 1 Parameters, Change every100 Samples ====================================
+[Succeeded]
+
+[Accuracy: Sample, 1 Parameters, Change every100 Samples]
+Info:  ===Accuracy: Sample, 1 Parameters, Change every100 Samples ====================================
+Info:     Not all points have been read via IParameterChanges
+[Succeeded]
+
+Warning: The module contains a moduleinfo.json file and the module factory exports a IPluginCompatibility class. The moduleinfo.json one is preferred.
+-------------------------------------------------------------
+Result: 47 tests passed, 0 tests failed
+-------------------------------------------------------------

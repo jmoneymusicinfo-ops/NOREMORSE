@@ -1,0 +1,656 @@
+
+File: build-windows-clang/JMoney_artefacts/Release/VST3/J Money - Vocal Intelligence EQ.vst3/Contents/x86_64-win/J Money - Vocal Intelligence EQ.vst3
+Format: COFF-x86-64
+Arch: x86_64
+AddressSize: 64bit
+ImageFileHeader {
+  Machine: IMAGE_FILE_MACHINE_AMD64 (0x8664)
+  SectionCount: 9
+  TimeDateStamp: 2026-10-25 00:52:10 (0x6ADD52BA)
+  PointerToSymbolTable: 0x0
+  SymbolCount: 0
+  StringTableSize: 0
+  OptionalHeaderSize: 240
+  Characteristics [ (0x2022)
+    IMAGE_FILE_DLL (0x2000)
+    IMAGE_FILE_EXECUTABLE_IMAGE (0x2)
+    IMAGE_FILE_LARGE_ADDRESS_AWARE (0x20)
+  ]
+}
+ImageOptionalHeader {
+  Magic: 0x20B
+  MajorLinkerVersion: 14
+  MinorLinkerVersion: 0
+  SizeOfCode: 6716928
+  SizeOfInitializedData: 2834944
+  SizeOfUninitializedData: 0
+  AddressOfEntryPoint: 0x6253C4
+  BaseOfCode: 0x1000
+  ImageBase: 0x180000000
+  SectionAlignment: 4096
+  FileAlignment: 512
+  MajorOperatingSystemVersion: 6
+  MinorOperatingSystemVersion: 0
+  MajorImageVersion: 0
+  MinorImageVersion: 0
+  MajorSubsystemVersion: 6
+  MinorSubsystemVersion: 0
+  SizeOfImage: 9601024
+  SizeOfHeaders: 1024
+  CheckSum: 0x0
+  Subsystem: IMAGE_SUBSYSTEM_WINDOWS_GUI (0x2)
+  Characteristics [ (0x160)
+    IMAGE_DLL_CHARACTERISTICS_DYNAMIC_BASE (0x40)
+    IMAGE_DLL_CHARACTERISTICS_HIGH_ENTROPY_VA (0x20)
+    IMAGE_DLL_CHARACTERISTICS_NX_COMPAT (0x100)
+  ]
+  SizeOfStackReserve: 1048576
+  SizeOfStackCommit: 4096
+  SizeOfHeapReserve: 1048576
+  SizeOfHeapCommit: 4096
+  NumberOfRvaAndSize: 16
+  DataDirectory {
+    ExportTableRVA: 0x7B70F0
+    ExportTableSize: 0x8C
+    ImportTableRVA: 0x7B717C
+    ImportTableSize: 0x1B8
+    ResourceTableRVA: 0x919000
+    ResourceTableSize: 0x510
+    ExceptionTableRVA: 0x8CB000
+    ExceptionTableSize: 0x4AAE4
+    CertificateTableRVA: 0x0
+    CertificateTableSize: 0x0
+    BaseRelocationTableRVA: 0x91A000
+    BaseRelocationTableSize: 0xD428
+    DebugRVA: 0x0
+    DebugSize: 0x0
+    ArchitectureRVA: 0x0
+    ArchitectureSize: 0x0
+    GlobalPtrRVA: 0x0
+    GlobalPtrSize: 0x0
+    TLSTableRVA: 0x7A1590
+    TLSTableSize: 0x28
+    LoadConfigTableRVA: 0x7917E0
+    LoadConfigTableSize: 0x140
+    BoundImportRVA: 0x0
+    BoundImportSize: 0x0
+    IATRVA: 0x7B8158
+    IATSize: 0xE20
+    DelayImportDescriptorRVA: 0x0
+    DelayImportDescriptorSize: 0x0
+    CLRRuntimeHeaderRVA: 0x0
+    CLRRuntimeHeaderSize: 0x0
+    ReservedRVA: 0x0
+    ReservedSize: 0x0
+  }
+}
+DOSHeader {
+  Magic: MZ
+  UsedBytesInTheLastPage: 120
+  FileSizeInPages: 1
+  NumberOfRelocationItems: 0
+  HeaderSizeInParagraphs: 4
+  MinimumExtraParagraphs: 0
+  MaximumExtraParagraphs: 0
+  InitialRelativeSS: 0
+  InitialSP: 0
+  Checksum: 0
+  InitialIP: 0
+  InitialRelativeCS: 0
+  AddressOfRelocationTable: 64
+  OverlayNumber: 0
+  OEMid: 0
+  OEMinfo: 0
+  AddressOfNewExeHeader: 120
+}
+Import {
+  Name: KERNEL32.dll
+  ImportLookupTableRVA: 0x7B7338
+  ImportAddressTableRVA: 0x7B8158
+  Symbol: AcquireSRWLockExclusive (0)
+  Symbol: AttachConsole (40)
+  Symbol: CancelIo (136)
+  Symbol: CloseHandle (157)
+  Symbol: CloseThreadpoolWork (170)
+  Symbol: CompareStringEx (177)
+  Symbol: CompareStringOrdinal (178)
+  Symbol: CompareStringW (179)
+  Symbol: ConnectNamedPipe (180)
+  Symbol: CopyFileW (197)
+  Symbol: CreateDirectoryW (212)
+  Symbol: CreateEventW (217)
+  Symbol: CreateFileMappingA (223)
+  Symbol: CreateFileMappingW (227)
+  Symbol: CreateFileW (230)
+  Symbol: CreateMutexW (246)
+  Symbol: CreateNamedPipeW (248)
+  Symbol: CreatePipe (250)
+  Symbol: CreateProcessW (258)
+  Symbol: CreateThread (271)
+  Symbol: CreateThreadpoolWork (277)
+  Symbol: DecodePointer (296)
+  Symbol: DeleteCriticalSection (303)
+  Symbol: DeleteFileW (310)
+  Symbol: DeviceIoControl (321)
+  Symbol: DisconnectNamedPipe (326)
+  Symbol: EncodePointer (339)
+  Symbol: EnterCriticalSection (343)
+  Symbol: EnumSystemLocalesW (379)
+  Symbol: ExitProcess (390)
+  Symbol: ExitThread (391)
+  Symbol: FindClose (413)
+  Symbol: FindFirstFileExW (419)
+  Symbol: FindFirstFileW (424)
+  Symbol: FindNextFileW (436)
+  Symbol: FlsAlloc (450)
+  Symbol: FlsFree (451)
+  Symbol: FlsGetValue (452)
+  Symbol: FlsSetValue (454)
+  Symbol: FlushFileBuffers (456)
+  Symbol: FoldStringW (461)
+  Symbol: FormatMessageW (464)
+  Symbol: FreeEnvironmentStringsW (467)
+  Symbol: FreeLibrary (468)
+  Symbol: FreeLibraryAndExitThread (469)
+  Symbol: FreeLibraryWhenCallbackReturns (470)
+  Symbol: GetACP (475)
+  Symbol: GetCPInfo (490)
+  Symbol: GetCommandLineA (511)
+  Symbol: GetCommandLineW (512)
+  Symbol: GetComputerNameExW (519)
+  Symbol: GetConsoleMode (549)
+  Symbol: GetConsoleOutputCP (553)
+  Symbol: GetCurrentDirectoryW (570)
+  Symbol: GetCurrentProcess (577)
+  Symbol: GetCurrentProcessId (578)
+  Symbol: GetCurrentThread (581)
+  Symbol: GetCurrentThreadId (582)
+  Symbol: GetDateFormatW (588)
+  Symbol: GetDiskFreeSpaceExW (595)
+  Symbol: GetDriveTypeW (602)
+  Symbol: GetEnvironmentStringsW (610)
+  Symbol: GetEnvironmentVariableW (612)
+  Symbol: GetExitCodeProcess (615)
+  Symbol: GetExitCodeThread (616)
+  Symbol: GetFileAttributesExW (621)
+  Symbol: GetFileAttributesW (624)
+  Symbol: GetFileInformationByHandle (626)
+  Symbol: GetFileSize (631)
+  Symbol: GetFileSizeEx (632)
+  Symbol: GetFileType (634)
+  Symbol: GetFinalPathNameByHandleW (636)
+  Symbol: GetLastError (653)
+  Symbol: GetLocaleInfoEx (656)
+  Symbol: GetLocaleInfoW (657)
+  Symbol: GetLogicalDriveStringsW (659)
+  Symbol: GetLogicalProcessorInformation (661)
+  Symbol: GetModuleFileNameW (673)
+  Symbol: GetModuleHandleA (674)
+  Symbol: GetModuleHandleExW (676)
+  Symbol: GetModuleHandleW (677)
+  Symbol: GetNativeSystemInfo (690)
+  Symbol: GetOEMCP (710)
+  Symbol: GetOverlappedResult (711)
+  Symbol: GetProcAddress (733)
+  Symbol: GetProcessHeap (740)
+  Symbol: GetStartupInfoW (769)
+  Symbol: GetStdHandle (771)
+  Symbol: GetStringTypeW (776)
+  Symbol: GetSystemDirectoryW (785)
+  Symbol: GetSystemFirmwareTable (787)
+  Symbol: GetSystemTimeAsFileTime (794)
+  Symbol: GetTempPathW (809)
+  Symbol: GetThreadPriority (821)
+  Symbol: GetTickCount64 (829)
+  Symbol: GetTimeFormatW (833)
+  Symbol: GetTimeZoneInformation (835)
+  Symbol: GetUserDefaultLCID (841)
+  Symbol: GetVolumeInformationW (853)
+  Symbol: GlobalAlloc (868)
+  Symbol: GlobalFree (875)
+  Symbol: GlobalLock (879)
+  Symbol: GlobalMemoryStatusEx (881)
+  Symbol: GlobalSize (883)
+  Symbol: GlobalUnlock (886)
+  Symbol: HeapAlloc (892)
+  Symbol: HeapFree (896)
+  Symbol: HeapReAlloc (899)
+  Symbol: HeapSize (901)
+  Symbol: InitOnceBeginInitialize (910)
+  Symbol: InitOnceComplete (911)
+  Symbol: InitializeCriticalSection (917)
+  Symbol: InitializeCriticalSectionAndSpinCount (918)
+  Symbol: InitializeCriticalSectionEx (919)
+  Symbol: InitializeSListHead (922)
+  Symbol: InterlockedFlushSList (926)
+  Symbol: IsDebuggerPresent (944)
+  Symbol: IsProcessorFeaturePresent (952)
+  Symbol: IsValidCodePage (958)
+  Symbol: IsValidLocale (960)
+  Symbol: LCMapStringEx (995)
+  Symbol: LCMapStringW (996)
+  Symbol: LeaveCriticalSection (1008)
+  Symbol: LoadLibraryA (1012)
+  Symbol: LoadLibraryExW (1014)
+  Symbol: LoadLibraryW (1015)
+  Symbol: LocalFree (1026)
+  Symbol: MapViewOfFile (1042)
+  Symbol: MoveFileW (1055)
+  Symbol: MultiByteToWideChar (1059)
+  Symbol: OutputDebugStringA (1098)
+  Symbol: OutputDebugStringW (1099)
+  Symbol: PeekNamedPipe (1108)
+  Symbol: QueryPerformanceCounter (1153)
+  Symbol: QueryPerformanceFrequency (1154)
+  Symbol: RaiseException (1176)
+  Symbol: ReadConsoleW (1190)
+  Symbol: ReadFile (1193)
+  Symbol: ReleaseMutex (1254)
+  Symbol: ReleaseSRWLockExclusive (1258)
+  Symbol: RemoveDirectoryW (1267)
+  Symbol: ReplaceFileW (1276)
+  Symbol: ResumeThread (1287)
+  Symbol: RtlCaptureContext (1289)
+  Symbol: RtlCaptureStackBackTrace (1290)
+  Symbol: RtlLookupFunctionEntry (1297)
+  Symbol: RtlPcToFileHeader (1299)
+  Symbol: RtlUnwind (1302)
+  Symbol: RtlUnwindEx (1303)
+  Symbol: RtlVirtualUnwind (1304)
+  Symbol: SetCurrentDirectoryW (1359)
+  Symbol: SetEndOfFile (1366)
+  Symbol: SetEnvironmentVariableW (1370)
+  Symbol: SetEvent (1372)
+  Symbol: SetFileAttributesW (1379)
+  Symbol: SetFilePointer (1384)
+  Symbol: SetFilePointerEx (1385)
+  Symbol: SetFileTime (1388)
+  Symbol: SetHandleInformation (1395)
+  Symbol: SetLastError (1400)
+  Symbol: SetLocalTime (1403)
+  Symbol: SetPriorityClass (1410)
+  Symbol: SetStdHandle (1427)
+  Symbol: SetThreadAffinityMask (1436)
+  Symbol: SetThreadPriority (1447)
+  Symbol: SetUnhandledExceptionFilter (1464)
+  Symbol: Sleep (1480)
+  Symbol: SleepConditionVariableSRW (1482)
+  Symbol: SubmitThreadpoolWork (1488)
+  Symbol: SwitchToThread (1491)
+  Symbol: TerminateProcess (1496)
+  Symbol: TerminateThread (1497)
+  Symbol: TlsAlloc (1514)
+  Symbol: TlsFree (1515)
+  Symbol: TlsGetValue (1516)
+  Symbol: TlsSetValue (1518)
+  Symbol: TryAcquireSRWLockExclusive (1522)
+  Symbol: TryEnterCriticalSection (1524)
+  Symbol: UnhandledExceptionFilter (1531)
+  Symbol: UnmapViewOfFile (1534)
+  Symbol: VirtualProtect (1562)
+  Symbol: WaitForMultipleObjects (1571)
+  Symbol: WaitForSingleObject (1573)
+  Symbol: WaitForSingleObjectEx (1574)
+  Symbol: WakeAllConditionVariable (1581)
+  Symbol: WakeConditionVariable (1582)
+  Symbol: WideCharToMultiByte (1612)
+  Symbol: WriteConsoleW (1631)
+  Symbol: WriteFile (1632)
+}
+Import {
+  Name: USER32.dll
+  ImportLookupTableRVA: 0x7B7928
+  ImportAddressTableRVA: 0x7B8748
+  Symbol: AttachThreadInput (16)
+  Symbol: BeginPaint (18)
+  Symbol: BringWindowToTop (20)
+  Symbol: CallNextHookEx (32)
+  Symbol: CallWindowProcW (34)
+  Symbol: CharLowerA (47)
+  Symbol: CharLowerW (50)
+  Symbol: CharUpperA (61)
+  Symbol: CharUpperW (64)
+  Symbol: CloseClipboard (80)
+  Symbol: CreateCaret (98)
+  Symbol: CreateIconIndirect (113)
+  Symbol: CreateWindowExW (122)
+  Symbol: DefWindowProcW (171)
+  Symbol: DestroyCaret (178)
+  Symbol: DestroyCursor (179)
+  Symbol: DestroyIcon (181)
+  Symbol: DestroyWindow (185)
+  Symbol: DispatchMessageW (193)
+  Symbol: DrawIconEx (218)
+  Symbol: EmptyClipboard (237)
+  Symbol: EnableMenuItem (238)
+  Symbol: EndDialog (248)
+  Symbol: EndPaint (250)
+  Symbol: EnumChildWindows (254)
+  Symbol: EnumDisplayDevicesW (260)
+  Symbol: EnumDisplayMonitors (261)
+  Symbol: EnumDisplaySettingsW (265)
+  Symbol: EnumWindows (273)
+  Symbol: GetActiveWindow (289)
+  Symbol: GetAncestor (293)
+  Symbol: GetAsyncKeyState (296)
+  Symbol: GetCapture (300)
+  Symbol: GetClientRect (314)
+  Symbol: GetClipboardData (317)
+  Symbol: GetCursorPos (330)
+  Symbol: GetDC (331)
+  Symbol: GetDesktopWindow (335)
+  Symbol: GetDpiForWindow (350)
+  Symbol: GetFocus (353)
+  Symbol: GetForegroundWindow (354)
+  Symbol: GetIconInfo (360)
+  Symbol: GetKeyboardState (375)
+  Symbol: GetMessageExtraInfo (400)
+  Symbol: GetMessagePos (401)
+  Symbol: GetMessageTime (402)
+  Symbol: GetMessageW (403)
+  Symbol: GetMonitorInfoW (405)
+  Symbol: GetParent (410)
+  Symbol: GetSystemMenu (468)
+  Symbol: GetSystemMetricsForDpi (470)
+  Symbol: GetUpdateRgn (483)
+  Symbol: GetWindowInfo (499)
+  Symbol: GetWindowLongPtrW (502)
+  Symbol: GetWindowPlacement (508)
+  Symbol: GetWindowRect (510)
+  Symbol: GetWindowTextW (517)
+  Symbol: GetWindowThreadProcessId (518)
+  Symbol: InvalidateRect (560)
+  Symbol: IsChild (571)
+  Symbol: IsWindow (597)
+  Symbol: IsWindowVisible (604)
+  Symbol: LoadCursorW (615)
+  Symbol: LoadIconW (617)
+  Symbol: MapVirtualKeyW (651)
+  Symbol: MapWindowPoints (653)
+  Symbol: MessageBeep (657)
+  Symbol: MonitorFromWindow (670)
+  Symbol: MoveWindow (671)
+  Symbol: OpenClipboard (682)
+  Symbol: PeekMessageW (696)
+  Symbol: PostMessageW (700)
+  Symbol: RedrawWindow (746)
+  Symbol: RegisterClassExW (750)
+  Symbol: RegisterWindowMessageW (783)
+  Symbol: ReleaseCapture (784)
+  Symbol: ReleaseDC (785)
+  Symbol: SendInput (807)
+  Symbol: SendMessageTimeoutW (812)
+  Symbol: SendMessageW (813)
+  Symbol: SendNotifyMessageW (815)
+  Symbol: SetCapture (818)
+  Symbol: SetCaretPos (820)
+  Symbol: SetClipboardData (826)
+  Symbol: SetCursor (831)
+  Symbol: SetCursorPos (833)
+  Symbol: SetFocus (846)
+  Symbol: SetForegroundWindow (848)
+  Symbol: SetLayeredWindowAttributes (854)
+  Symbol: SetParent (871)
+  Symbol: SetWindowLongPtrW (916)
+  Symbol: SetWindowPos (920)
+  Symbol: SetWindowTextW (925)
+  Symbol: SetWindowsHookExW (930)
+  Symbol: ShowCaret (939)
+  Symbol: ShowWindow (945)
+  Symbol: SystemParametersInfoW (962)
+  Symbol: ToUnicode (969)
+  Symbol: TrackMouseEvent (971)
+  Symbol: TranslateMessage (978)
+  Symbol: UnhookWindowsHookEx (983)
+  Symbol: UnregisterClassW (989)
+  Symbol: UpdateLayeredWindow (1001)
+  Symbol: ValidateRect (1015)
+  Symbol: ValidateRgn (1016)
+  Symbol: VkKeyScanW (1020)
+  Symbol: WindowFromPoint (1032)
+}
+Import {
+  Name: ole32.dll
+  ImportLookupTableRVA: 0x7B7C88
+  ImportAddressTableRVA: 0x7B8AA8
+  Symbol: CoCreateGuid (42)
+  Symbol: CoCreateInstance (43)
+  Symbol: CoInitialize (96)
+  Symbol: CoInitializeEx (97)
+  Symbol: CoTaskMemAlloc (139)
+  Symbol: CoTaskMemFree (140)
+  Symbol: CoUninitialize (145)
+  Symbol: DoDragDrop (181)
+  Symbol: OleCreate (399)
+  Symbol: OleInitialize (430)
+  Symbol: OleSetContainedObject (455)
+  Symbol: OleUninitialize (459)
+  Symbol: RegisterDragDrop (475)
+  Symbol: RevokeDragDrop (478)
+}
+Import {
+  Name: SHELL32.dll
+  ImportLookupTableRVA: 0x7B7D00
+  ImportAddressTableRVA: 0x7B8B20
+  Symbol: CommandLineToArgvW (9)
+  Symbol: DragQueryFileW (42)
+  Symbol: ExtractAssociatedIconW (49)
+  Symbol: SHBrowseForFolderW (137)
+  Symbol: SHCreateShellItem (171)
+  Symbol: SHFileOperationW (313)
+  Symbol: SHGetKnownFolderPath (346)
+  Symbol: SHGetMalloc (348)
+  Symbol: SHGetPathFromIDListW (356)
+  Symbol: SHGetSpecialFolderPathW (366)
+  Symbol: SHParseDisplayName (388)
+  Symbol: ShellExecuteW (432)
+  Symbol: Shell_NotifyIconW (444)
+}
+Import {
+  Name: ADVAPI32.dll
+  ImportLookupTableRVA: 0x7B7D70
+  ImportAddressTableRVA: 0x7B8B90
+  Symbol: AccessCheck (5)
+  Symbol: DuplicateToken (240)
+  Symbol: GetNamedSecurityInfoW (322)
+  Symbol: GetUserNameW (358)
+  Symbol: MapGenericMask (506)
+  Symbol: OpenProcessToken (527)
+  Symbol: RegCloseKey (597)
+  Symbol: RegCreateKeyExW (606)
+  Symbol: RegDeleteKeyW (617)
+  Symbol: RegDeleteValueW (621)
+  Symbol: RegEnumKeyExW (628)
+  Symbol: RegOpenKeyExW (646)
+  Symbol: RegQueryValueExW (659)
+  Symbol: RegSetValueExW (675)
+}
+Import {
+  Name: GDI32.dll
+  ImportLookupTableRVA: 0x7B7DE8
+  ImportAddressTableRVA: 0x7B8C08
+  Symbol: BitBlt (19)
+  Symbol: CombineRgn (34)
+  Symbol: CreateBitmap (41)
+  Symbol: CreateCompatibleDC (49)
+  Symbol: CreateDIBSection (55)
+  Symbol: CreateFontIndirectW (67)
+  Symbol: CreateRectRgn (83)
+  Symbol: CreateRectRgnIndirect (84)
+  Symbol: DeleteDC (402)
+  Symbol: DeleteObject (405)
+  Symbol: ExcludeClipRect (481)
+  Symbol: GetDeviceCaps (658)
+  Symbol: GetObjectW (708)
+  Symbol: GetRegionData (723)
+  Symbol: RestoreDC (836)
+  Symbol: SaveDC (843)
+  Symbol: SelectObject (892)
+  Symbol: SetBrushOrgEx (903)
+  Symbol: SetMapMode (921)
+  Symbol: SetMapperFlags (922)
+  Symbol: SetStretchBltMode (935)
+  Symbol: StretchBlt (952)
+  Symbol: StretchDIBits (953)
+}
+Import {
+  Name: OLEAUT32.dll
+  ImportLookupTableRVA: 0x7B7EA8
+  ImportAddressTableRVA: 0x7B8CC8
+  Symbol:  (23)
+  Symbol:  (411)
+  Symbol:  (16)
+  Symbol:  (26)
+  Symbol:  (24)
+  Symbol:  (2)
+}
+Import {
+  Name: COMDLG32.dll
+  ImportLookupTableRVA: 0x7B7EE0
+  ImportAddressTableRVA: 0x7B8D00
+  Symbol: GetOpenFileNameW (12)
+  Symbol: GetSaveFileNameW (14)
+}
+Import {
+  Name: WININET.dll
+  ImportLookupTableRVA: 0x7B7EF8
+  ImportAddressTableRVA: 0x7B8D18
+  Symbol: FtpOpenFileW (77)
+  Symbol: HttpEndRequestW (114)
+  Symbol: HttpOpenRequestW (121)
+  Symbol: HttpQueryInfoW (126)
+  Symbol: HttpSendRequestExW (129)
+  Symbol: InternetCloseHandle (149)
+  Symbol: InternetConnectW (156)
+  Symbol: InternetCrackUrlW (159)
+  Symbol: InternetOpenW (201)
+  Symbol: InternetReadFile (206)
+  Symbol: InternetSetFilePointer (219)
+  Symbol: InternetSetOptionW (223)
+  Symbol: InternetWriteFile (240)
+}
+Import {
+  Name: WS2_32.dll
+  ImportLookupTableRVA: 0x7B7F68
+  ImportAddressTableRVA: 0x7B8D88
+  Symbol:  (111)
+  Symbol:  (115)
+  Symbol:  (151)
+  Symbol:  (1)
+  Symbol:  (2)
+  Symbol:  (3)
+  Symbol:  (4)
+  Symbol: freeaddrinfo (165)
+  Symbol: getaddrinfo (166)
+  Symbol:  (5)
+  Symbol:  (6)
+  Symbol:  (7)
+  Symbol:  (8)
+  Symbol:  (9)
+  Symbol:  (11)
+  Symbol:  (12)
+  Symbol:  (10)
+  Symbol:  (13)
+  Symbol:  (15)
+  Symbol:  (16)
+  Symbol:  (17)
+  Symbol:  (18)
+  Symbol:  (19)
+  Symbol:  (20)
+  Symbol:  (21)
+  Symbol:  (23)
+}
+Import {
+  Name: VERSION.dll
+  ImportLookupTableRVA: 0x7B8040
+  ImportAddressTableRVA: 0x7B8E60
+  Symbol: GetFileVersionInfoSizeW (7)
+  Symbol: GetFileVersionInfoW (8)
+  Symbol: VerQueryValueW (16)
+}
+Import {
+  Name: SHLWAPI.dll
+  ImportLookupTableRVA: 0x7B8060
+  ImportAddressTableRVA: 0x7B8E80
+  Symbol: PathStripToRootW (155)
+}
+Import {
+  Name: WINMM.dll
+  ImportLookupTableRVA: 0x7B8070
+  ImportAddressTableRVA: 0x7B8E90
+  Symbol: timeBeginPeriod (134)
+  Symbol: timeGetTime (138)
+  Symbol: timeKillEvent (139)
+  Symbol: timeSetEvent (140)
+}
+Import {
+  Name: dbghelp.dll
+  ImportLookupTableRVA: 0x7B8098
+  ImportAddressTableRVA: 0x7B8EB8
+  Symbol: SymFromAddr (90)
+  Symbol: SymGetModuleInfo64 (130)
+  Symbol: SymInitialize (170)
+}
+Import {
+  Name: d2d1.dll
+  ImportLookupTableRVA: 0x7B80B8
+  ImportAddressTableRVA: 0x7B8ED8
+  Symbol:  (1)
+}
+Import {
+  Name: dxgi.dll
+  ImportLookupTableRVA: 0x7B80C8
+  ImportAddressTableRVA: 0x7B8EE8
+  Symbol: CreateDXGIFactory2 (5)
+}
+Import {
+  Name: d3d11.dll
+  ImportLookupTableRVA: 0x7B80D8
+  ImportAddressTableRVA: 0x7B8EF8
+  Symbol: D3D11CreateDevice (6)
+}
+Import {
+  Name: dcomp.dll
+  ImportLookupTableRVA: 0x7B80E8
+  ImportAddressTableRVA: 0x7B8F08
+  Symbol: DCompositionCreateDevice (4)
+}
+Import {
+  Name: IMM32.dll
+  ImportLookupTableRVA: 0x7B80F8
+  ImportAddressTableRVA: 0x7B8F18
+  Symbol: ImmAssociateContext (26)
+  Symbol: ImmAssociateContextEx (27)
+  Symbol: ImmGetCompositionStringW (57)
+  Symbol: ImmGetContext (59)
+  Symbol: ImmNotifyIME (100)
+  Symbol: ImmReleaseContext (107)
+  Symbol: ImmSetCandidateWindow (114)
+}
+Import {
+  Name: COMCTL32.dll
+  ImportLookupTableRVA: 0x7B8138
+  ImportAddressTableRVA: 0x7B8F58
+  Symbol:  (345)
+}
+Import {
+  Name: dwmapi.dll
+  ImportLookupTableRVA: 0x7B8148
+  ImportAddressTableRVA: 0x7B8F68
+  Symbol: DwmExtendFrameIntoClientArea (8)
+}
+Export {
+  Ordinal: 1
+  Name: ExitDll
+  RVA: 0x26680
+}
+Export {
+  Ordinal: 2
+  Name: GetPluginFactory
+  RVA: 0x26690
+}
+Export {
+  Ordinal: 3
+  Name: InitDll
+  RVA: 0x26670
+}

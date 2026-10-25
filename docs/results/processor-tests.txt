@@ -1,0 +1,38 @@
+Start testing: Oct 25 00:25 UTC
+----------------------------------------------------------
+1/2 Testing: DSP
+1/2 Test: DSP
+Command: "/workspace/NOREMORSE/build/dsp_tests"
+Directory: /workspace/NOREMORSE/build
+"DSP" start time: Oct 25 00:25 UTC
+Output:
+----------------------------------------------------------
+840072 checks passed. 24 static bands, stereo, 48000 Hz, 480000 samples: 0.0707298 seconds; checksum 0.1
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"DSP" end time: Oct 25 00:25 UTC
+"DSP" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: ProcessorIntegration
+2/2 Test: ProcessorIntegration
+Command: "/workspace/NOREMORSE/build/integration_tests_artefacts/Release/integration_tests"
+Directory: /workspace/NOREMORSE/build
+"ProcessorIntegration" start time: Oct 25 00:25 UTC
+Output:
+----------------------------------------------------------
+Full processor timing: one stereo instance, 48000 Hz, 256 samples, learned curve enabled, 10 seconds audio in 0.390047 seconds
+Full processor timing: one stereo instance, 48000 Hz, 256 samples, 24 dynamic bands + learned curve + linear FIR, 10 seconds audio in 0.816466 seconds
+Ten-instance timing: stereo 48000 Hz, 256 samples, group unmasking, minimum phase, 10 seconds per instance in 4.22579 seconds
+Integration passed: mono/stereo, six rates, six block sizes, identity, double silence, state roundtrip.
+<end of output>
+Test time =   9.97 sec
+----------------------------------------------------------
+Test Passed.
+"ProcessorIntegration" end time: Oct 25 00:25 UTC
+"ProcessorIntegration" time elapsed: 00:00:09
+----------------------------------------------------------
+
+End testing: Oct 25 00:25 UTC

@@ -1,0 +1,4 @@
+[0/2] Re-checking globbed directories...
+[1/2] Linking CXX shared module "JMoney_artefacts/Release/VST3/J Money - Vocal Intelligence EQ.vst3/Contents/x86_64-win/J Money - Vocal Intelligence EQ.vst3"
+removing moduleinfo.json
+creating /workspace/NOREMORSE/build-windows-clang/JMoney_artefacts/Release/VST3/J Money - Vocal Intelligence EQ.vst3/Contents/Resources/moduleinfo.json

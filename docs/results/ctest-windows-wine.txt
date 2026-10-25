@@ -1,0 +1,9 @@
+Test project /workspace/NOREMORSE/build-windows-clang
+    Start 1: DSP
+1/2 Test #1: DSP ..............................   Passed    6.07 sec
+    Start 2: ProcessorIntegration
+2/2 Test #2: ProcessorIntegration .............   Passed   18.59 sec
+
+100% tests passed out of 2
+
+Total Test time (real) =  24.66 sec

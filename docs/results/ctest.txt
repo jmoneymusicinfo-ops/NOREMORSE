@@ -1,0 +1,9 @@
+Test project /workspace/NOREMORSE/build
+    Start 1: DSP
+1/2 Test #1: DSP ..............................   Passed    0.12 sec
+    Start 2: ProcessorIntegration
+2/2 Test #2: ProcessorIntegration .............   Passed    9.97 sec
+
+100% tests passed out of 2
+
+Total Test time (real) =  10.09 sec

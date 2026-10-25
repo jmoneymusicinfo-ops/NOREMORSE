@@ -1,0 +1,62 @@
+name: Native Windows VST3 and editor validation
+on: [push, workflow_dispatch]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: windows-2022
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and test native Windows editor and DSP
+        id: build
+        shell: pwsh
+        run: |
+          ./scripts/build-windows.ps1 *> native-build.log
+      - name: Validate Windows VST3 including GUI
+        id: validate
+        shell: pwsh
+        run: |
+          ./scripts/validate-windows.ps1 *> native-pluginval.log
+      - name: Package verified Windows downloads
+        id: package
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force docs/results/native-windows-0.1.1 | Out-Null
+          Copy-Item native-build.log docs/results/native-windows-0.1.1/build.txt
+          Copy-Item native-pluginval.log docs/results/native-windows-0.1.1/pluginval.txt
+          Copy-Item build-win/Testing/Temporary/LastTest.log docs/results/native-windows-0.1.1/ctest.txt
+          python scripts/package-release.py
+      - name: Save build diagnostics and successful downloads
+        if: always()
+        shell: pwsh
+        env:
+          BUILD_RESULT: ${{ steps.build.outcome }}
+          VALIDATE_RESULT: ${{ steps.validate.outcome }}
+          PACKAGE_RESULT: ${{ steps.package.outcome }}
+        run: |
+          New-Item -ItemType Directory -Force diagnostics | Out-Null
+          if (Test-Path native-build.log) { Copy-Item native-build.log diagnostics/native-windows-build.txt }
+          if (Test-Path native-pluginval.log) { Copy-Item native-pluginval.log diagnostics/native-windows-pluginval.txt }
+          if (Test-Path build-win/Testing/Temporary/LastTest.log) { Copy-Item build-win/Testing/Temporary/LastTest.log diagnostics/native-windows-ctest.txt }
+          @{commit=$env:GITHUB_SHA;run_id=$env:GITHUB_RUN_ID;build=$env:BUILD_RESULT;validation=$env:VALIDATE_RESULT;package=$env:PACKAGE_RESULT} | ConvertTo-Json | Set-Content diagnostics/native-windows-status.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add diagnostics
+          if ($env:PACKAGE_RESULT -eq 'success') { git add downloads }
+          git commit -m 'Record native Windows editor validation and release results'
+          if ($LASTEXITCODE -eq 0) {
+            git pull --rebase origin main
+            if ($LASTEXITCODE) { throw 'Concurrent repository update; preserving local results in artifacts' }
+            git push origin HEAD:main
+            if ($LASTEXITCODE) { throw 'Could not publish build results' }
+          }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: JMoney-native-Windows-results
+          path: |
+            native-build.log
+            native-pluginval.log
+            build-win/Testing/Temporary/LastTest.log
+            downloads/*v0.1.1.zip

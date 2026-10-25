@@ -1,0 +1,38 @@
+Start testing: Oct 25 00:56 UTC
+----------------------------------------------------------
+1/2 Testing: DSP
+1/2 Test: DSP
+Command: "/workspace/dependencies/run-wine.sh" "/workspace/NOREMORSE/build-windows-clang/dsp_tests.exe"
+Directory: /workspace/NOREMORSE/build-windows-clang
+"DSP" start time: Oct 25 00:56 UTC
+Output:
+----------------------------------------------------------
+840072 checks passed. 24 static bands, stereo, 48000 Hz, 480000 samples: 0.08951 seconds; checksum 0.1
+<end of output>
+Test time =   6.07 sec
+----------------------------------------------------------
+Test Passed.
+"DSP" end time: Oct 25 00:56 UTC
+"DSP" time elapsed: 00:00:06
+----------------------------------------------------------
+
+2/2 Testing: ProcessorIntegration
+2/2 Test: ProcessorIntegration
+Command: "/workspace/dependencies/run-wine.sh" "/workspace/NOREMORSE/build-windows-clang/integration_tests_artefacts/Release/integration_tests.exe"
+Directory: /workspace/NOREMORSE/build-windows-clang
+"ProcessorIntegration" start time: Oct 25 00:56 UTC
+Output:
+----------------------------------------------------------
+Full processor timing: one stereo instance, 48000 Hz, 256 samples, learned curve enabled, 10 seconds audio in 0.418009 seconds
+Full processor timing: one stereo instance, 48000 Hz, 256 samples, 24 dynamic bands + learned curve + linear FIR, 10 seconds audio in 0.89829 seconds
+Ten-instance timing: stereo 48000 Hz, 256 samples, group unmasking, minimum phase, 10 seconds per instance in 4.09229 seconds
+Integration passed: mono/stereo, six rates, six block sizes, identity, double silence, state roundtrip.
+<end of output>
+Test time =  18.59 sec
+----------------------------------------------------------
+Test Passed.
+"ProcessorIntegration" end time: Oct 25 00:56 UTC
+"ProcessorIntegration" time elapsed: 00:00:18
+----------------------------------------------------------
+
+End testing: Oct 25 00:56 UTC

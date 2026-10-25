@@ -1,0 +1,32 @@
+J MONEY - VOCAL INTELLIGENCE EQ 0.1.0
+WINDOWS x64 DEVELOPMENT BUILD
+
+1. Extract the ZIP. Keep the whole "J Money - Vocal Intelligence EQ.vst3" folder intact.
+2. Close Audition. Copy that entire folder into:
+   C:\Program Files\Common Files\VST3
+   Allow the Windows administrator prompt if needed.
+3. Open Audition > Effects > Audio Plug-In Manager > Scan for Plug-ins.
+   Enable "J Money - Vocal Intelligence EQ".
+4. Add it to your vocal's Effects Rack. Choose the Natural Rap Lead factory preset.
+   Play a representative verse, press Learn, and allow at least 12 seconds of
+   accepted nonsilent audio. Start with modest correction and compare bypass.
+
+Do not copy only the inner .vst3 binary. The bundle contains its own Contents folder.
+There is no separate installer and no subscription or online inference.
+
+This is an unsigned development build. It was compiled for Windows x64 and tested
+with Windows validation software under Wine. It has not been tested inside Adobe
+Audition on a Windows PC. Review docs/STATUS.md for remaining feature limitations.
+Current Adobe online scanning guidance could not be retrieved; confirm menu labels
+in your installed Audition version.
+
+Uninstall: close all hosts, remove the installed .vst3 folder, then rescan.
+User .jmveq presets are separate files; keep your backups.
+
+If scanning fails: confirm that the extracted folder contains Contents\x86_64-win,
+not x86_64-linux. Read the host scan error. If Windows marks the downloaded ZIP as
+blocked, review its Properties > Unblock before extracting. The supplied build uses
+static C/C++ runtimes and imports Windows system DLLs.
+
+Source and notices: AGPLv3 project; see LICENSE, THIRD_PARTY_NOTICES.md and the
+matching source archive. Factory presets are starting points, not Sonible presets.

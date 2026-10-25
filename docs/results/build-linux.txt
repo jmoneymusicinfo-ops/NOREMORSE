@@ -1,0 +1,11 @@
+[  3%] Built target dsp_tests
+[  7%] Built target juce_vst3_helper
+[  9%] Building CXX object CMakeFiles/JMoney.dir/Source/Plugin.cpp.o
+[ 11%] Linking CXX static library "JMoney_artefacts/Release/libJ Money - Vocal Intelligence EQ_SharedCode.a"
+[ 45%] Built target JMoney
+[ 47%] Linking CXX shared module "JMoney_artefacts/Release/VST3/J Money - Vocal Intelligence EQ.vst3/Contents/x86_64-linux/J Money - Vocal Intelligence EQ.so"
+[ 49%] Linking CXX executable integration_tests_artefacts/Release/integration_tests
+removing moduleinfo.json
+creating /workspace/NOREMORSE/build/JMoney_artefacts/Release/VST3/J Money - Vocal Intelligence EQ.vst3/Contents/Resources/moduleinfo.json
+[ 64%] Built target JMoney_VST3
+[100%] Built target integration_tests
