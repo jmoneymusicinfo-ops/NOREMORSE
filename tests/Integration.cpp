@@ -77,7 +77,8 @@ int main(int argc, char **argv) {
                 hostWindow.addToDesktop(juce::ComponentPeer::windowHasTitleBar);
                 hostWindow.setVisible(true);
             } else
-                editor->addToDesktop(juce::ComponentPeer::windowHasTitleBar);
+                editor->addToDesktop(
+                    0); // VST3 peers use client bounds without host title-bar chrome.
             std::cerr << "Native peer created\n" << std::flush;
             require(editor->getPeer() != nullptr, "native editor peer");
 #if JUCE_WINDOWS
