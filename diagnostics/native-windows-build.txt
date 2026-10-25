@@ -23,8 +23,8 @@
 -- Looking for pthread_create in pthread
 -- Looking for pthread_create in pthread - not found
 -- Found Threads: TRUE
--- Configuring done (63.1s)
--- Generating done (0.1s)
+-- Configuring done (79.8s)
+-- Generating done (0.3s)
 -- Build files have been written to: D:/a/NOREMORSE/NOREMORSE/build-win
 MSBuild version 17.14.60+43b635718 for .NET Framework
 
@@ -34,22 +34,22 @@ MSBuild version 17.14.60+43b635718 for .NET Framework
   Building Custom Rule D:/a/NOREMORSE/NOREMORSE/CMakeLists.txt
   Generating integration_tests_artefacts/JuceLibraryCode/integration_tests_resources.rc
   Building Custom Rule D:/a/NOREMORSE/NOREMORSE/CMakeLists.txt
-  integration_tests_rc_lib.vcxproj -> D:\a\NOREMORSE\NOREMORSE\build-win\integration_tests_rc_lib.dir\Release\integration_tests_rc_lib.lib
   JMoney_rc_lib.vcxproj -> D:\a\NOREMORSE\NOREMORSE\build-win\JMoney_rc_lib.dir\Release\JMoney_rc_lib.lib
+  integration_tests_rc_lib.vcxproj -> D:\a\NOREMORSE\NOREMORSE\build-win\integration_tests_rc_lib.dir\Release\integration_tests_rc_lib.lib
   Building Custom Rule D:/a/NOREMORSE/NOREMORSE/CMakeLists.txt
   Building Custom Rule D:/a/NOREMORSE/NOREMORSE/CMakeLists.txt
-  juce_VST3ManifestHelper.cpp
   Plugin.cpp
   juce_audio_processors.cpp
   juce_audio_processors_ara.cpp
   juce_audio_processors_lv2_libs.cpp
   juce_gui_extra.cpp
   juce_gui_basics.cpp
+  juce_VST3ManifestHelper.cpp
   juce_graphics.cpp
   juce_graphics_Harfbuzz.cpp
   juce_events.cpp
-  juce_vst3_helper.vcxproj -> D:\a\NOREMORSE\NOREMORSE\build-win\Release\juce_vst3_helper.exe
   juce_core.cpp
+  juce_vst3_helper.vcxproj -> D:\a\NOREMORSE\NOREMORSE\build-win\Release\juce_vst3_helper.exe
   juce_core_CompilationTime.cpp
   juce_data_structures.cpp
   juce_audio_basics.cpp
@@ -73,8 +73,8 @@ MSBuild version 17.14.60+43b635718 for .NET Framework
   removing moduleinfo.json
   creating D:/a/NOREMORSE/NOREMORSE/build-win/JMoney_artefacts/Release/VST3/J Money - Vocal Intelligence EQ.vst3/Contents/Resources/moduleinfo.json
   Building Custom Rule D:/a/NOREMORSE/NOREMORSE/CMakeLists.txt
-  Building Custom Rule D:/a/NOREMORSE/NOREMORSE/CMakeLists.txt
   DspTests.cpp
+  Building Custom Rule D:/a/NOREMORSE/NOREMORSE/CMakeLists.txt
   Integration.cpp
   juce_audio_utils.cpp
   juce_audio_processors.cpp
@@ -101,26 +101,11 @@ Test project D:/a/NOREMORSE/NOREMORSE/build-win
     Start 1: DSP
 1/3 Test #1: DSP ..............................   Passed    0.14 sec
     Start 2: ProcessorIntegration
-2/3 Test #2: ProcessorIntegration .............   Passed   11.39 sec
+2/3 Test #2: ProcessorIntegration .............   Passed   16.83 sec
     Start 3: EditorLifecycle
-3/3 Test #3: EditorLifecycle ..................***Failed    0.14 sec
-Creating editor 1
-Editor constructed
-Native peer created
-Editor visible
-Advanced panel opened in 0.0004296 seconds
-Editor painted, resized and closed
-Creating editor 2
-Editor constructed
-Native peer created
-Editor visible
-square constrained resize
+3/3 Test #3: EditorLifecycle ..................   Passed    0.25 sec
 
+100% tests passed, 0 tests failed out of 3
 
-67% tests passed, 1 tests failed out of 3
-
-Total Test time (real) =  11.72 sec
-
-The following tests FAILED:
-	  3 - EditorLifecycle (Failed)
-Errors while running CTest
+Total Test time (real) =  17.51 sec
+VST3 bundle: build-win/JMoney_artefacts/Release/VST3/J Money - Vocal Intelligence EQ.vst3

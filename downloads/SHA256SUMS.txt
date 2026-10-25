@@ -1,2 +1,4 @@
-383a4eb4c5d58579de2c8fe67653c26c38eca47de544b650a9c5bbd53a4458e5  JMoney-Vocal-Intelligence-EQ-Windows-x64.zip
-b1d3d97eae575ba6c7877f1a28a291cb8a96d6143700631380fdfc0225fe89ce  JMoney-Vocal-Intelligence-EQ-source.zip
+14720edbe9acaa901b83d6e25e4cf3bcbfc4346dd3cca394b80350436a1c5aaf  JMoney-Vocal-Intelligence-EQ-source-v3.22.zip
+14720edbe9acaa901b83d6e25e4cf3bcbfc4346dd3cca394b80350436a1c5aaf  JMoney-Vocal-Intelligence-EQ-source.zip
+920e603316f7ad7f25b1af939b6f4dcb5978b9279fdd294fe11b13fc346c470a  JMoney-Vocal-Intelligence-EQ-Windows-x64-v3.22.zip
+920e603316f7ad7f25b1af939b6f4dcb5978b9279fdd294fe11b13fc346c470a  JMoney-Vocal-Intelligence-EQ-Windows-x64.zip
