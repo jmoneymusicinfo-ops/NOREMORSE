@@ -1,0 +1,1 @@
+Verify the native Windows VST3 v0.1.1 including GUI, explicit process wait, and saved result log.
