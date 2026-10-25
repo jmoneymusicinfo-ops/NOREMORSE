@@ -1,0 +1,40 @@
+name: Verify published Windows VST3 GUI log
+on:
+  push:
+    paths:
+      - 'validation/request.txt'
+      - '.github/workflows/verify-editor.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: windows-2022
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract native Windows build
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force build-win/JMoney_artefacts/Release/VST3 | Out-Null
+          Expand-Archive downloads/JMoney-Vocal-Intelligence-EQ-Windows-x64-v0.1.1.zip build-win/JMoney_artefacts/Release/VST3 -Force
+      - name: Run pluginval and verify completed GUI log
+        id: validate
+        shell: pwsh
+        run: ./scripts/validate-windows.ps1
+      - name: Publish actual GUI log
+        if: always()
+        shell: pwsh
+        env:
+          VALIDATION_RESULT: ${{ steps.validate.outcome }}
+        run: |
+          New-Item -ItemType Directory -Force diagnostics | Out-Null
+          if (Test-Path build-win/validation-results/native-pluginval.txt) { Copy-Item build-win/validation-results/native-pluginval.txt diagnostics/native-pluginval-confirmed.txt }
+          $binary = 'build-win/JMoney_artefacts/Release/VST3/J Money - Vocal Intelligence EQ.vst3/Contents/x86_64-win/J Money - Vocal Intelligence EQ.vst3'
+          $hash = if (Test-Path $binary) { (Get-FileHash $binary -Algorithm SHA256).Hash.ToLowerInvariant() } else { '' }
+          @{commit=$env:GITHUB_SHA;run_id=$env:GITHUB_RUN_ID;validation=$env:VALIDATION_RESULT;binary_sha256=$hash} | ConvertTo-Json | Set-Content diagnostics/native-pluginval-confirmed.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add diagnostics
+          git commit -m 'Record completed native Windows VST3 GUI verification'
+          if ($LASTEXITCODE -eq 0) { git pull --rebase origin main; git push origin HEAD:main }

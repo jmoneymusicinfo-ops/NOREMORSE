@@ -1,4 +1,4 @@
-J MONEY - VOCAL INTELLIGENCE EQ 0.1.0
+J MONEY - VOCAL INTELLIGENCE EQ 0.1.1
 WINDOWS x64 DEVELOPMENT BUILD
 
 1. Extract the ZIP. Keep the whole "J Money - Vocal Intelligence EQ.vst3" folder intact.
@@ -14,9 +14,9 @@ WINDOWS x64 DEVELOPMENT BUILD
 Do not copy only the inner .vst3 binary. The bundle contains its own Contents folder.
 There is no separate installer and no subscription or online inference.
 
-This is an unsigned development build. It was compiled for Windows x64 and tested
-with Windows validation software under Wine. It has not been tested inside Adobe
-Audition on a Windows PC. Review docs/STATUS.md for remaining feature limitations.
+This is an unsigned development build compiled and tested in native Windows CI,
+including repeated editor opening, square resizing, painting, and closing.
+Actual Adobe Audition testing on your PC is still required. Review docs/STATUS.md for remaining feature limitations.
 Current Adobe online scanning guidance could not be retrieved; confirm menu labels
 in your installed Audition version.
 
@@ -30,3 +30,8 @@ static C/C++ runtimes and imports Windows system DLLs.
 
 Source and notices: AGPLv3 project; see LICENSE, THIRD_PARTY_NOTICES.md and the
 matching source archive. Factory presets are starting points, not Sonible presets.
+
+Updating from 0.1.0: close Audition and dismiss its error dialog. Remove only the
+old J Money .vst3 folder, copy the new complete folder, restart, and rescan.
+Version 0.1.1 uses a square editor and Windows software rendering, with a display-
+thread shutdown correction. Try the update in an empty session first.

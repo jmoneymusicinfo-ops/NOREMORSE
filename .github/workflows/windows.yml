@@ -1,5 +1,15 @@
 name: Native Windows VST3 and editor validation
-on: [push, workflow_dispatch]
+on:
+  push:
+    paths:
+      - 'CMakeLists.txt'
+      - 'Source/**'
+      - 'tests/**'
+      - 'cmake/**'
+      - 'scripts/build-windows.ps1'
+      - 'scripts/validate-windows.ps1'
+      - '.github/workflows/windows.yml'
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
