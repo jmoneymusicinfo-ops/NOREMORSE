@@ -16,4 +16,4 @@ Install the new bundle with Audition completely closed. Remove the old J Money .
 
 Actual Audition testing on the affected PC is still required. If the error persists, the exception code and faulting module from Adobe's View report (or Windows application error details) are needed to investigate the specific failure.
 
-Native Windows CI has now passed DSP, processor integration and the five-cycle editor lifecycle regression, including host embedding and constrained square client resizing. The standalone VST3 GUI validator is being verified with an explicit saved log and bounded process wait.
+Native Windows CI has now passed DSP, processor integration and the five-cycle editor lifecycle regression, including host embedding and constrained square client resizing. The actual published Windows VST3 also passed pluginval 1.0.4 at strictness 5 with GUI tests enabled, an explicit process wait, and a saved SUCCESS log. Native verification run: https://github.com/jmoneymusicinfo-ops/NOREMORSE/actions/runs/40173466975 .
